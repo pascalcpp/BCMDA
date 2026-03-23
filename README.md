@@ -1,6 +1,6 @@
 # BCMDA: Bidirectional Correlation Maps Domain Adaptation for Mixed Domain Semi-Supervised Medical Image Segmentation (Neural Networks)
 
-Pytorch implementation of our method for Neural Networks paper: "BCMDA: Bidirectional Correlation Maps Domain Adaptation for Mixed Domain Semi-Supervised Medical Image Segmentation".[Paper Link](https://papers.miccai.org/miccai-2024/672-Paper0821.html)
+Pytorch implementation of our method for Neural Networks paper: "BCMDA: Bidirectional Correlation Maps Domain Adaptation for Mixed Domain Semi-Supervised Medical Image Segmentation".[Paper Link]()
 ## Contents
 - [Introduction](##Introduction)
 - [Requirements](##Requirements)
