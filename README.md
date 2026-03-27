@@ -35,14 +35,14 @@ python ./test.py --overwrite --lb_domain ... --data_path ../data/mnms --dataset 
 ## Citation
 If our BCMDA is useful for your research, please consider citing:
 
-  @article{song2026bcmda,
-    title={BCMDA: Bidirectional Correlation Maps Domain Adaptation for Mixed Domain Semi-Supervised Medical Image Segmentation},
-    author={Song, Bentao and Huang, Jun and Wang, Qingfeng},
-    journal={Neural Networks},
-    pages={108877},
-    year={2026},
-    publisher={Elsevier}
-  }
+    @article{song2026bcmda,
+      title={BCMDA: Bidirectional Correlation Maps Domain Adaptation for Mixed Domain Semi-Supervised Medical Image Segmentation},
+      author={Song, Bentao and Huang, Jun and Wang, Qingfeng},
+      journal={Neural Networks},
+      pages={108877},
+      year={2026},
+      publisher={Elsevier}
+    }
 
 ## Acknowledgements
 Our code is largely based on [MiDSS](https://github.com/MQinghe/MiDSS) and [SSL4MIS](https://github.com/HiLab-git/SSL4MIS). Thanks for these authors for their valuable work, hope our work can also contribute to related research.
