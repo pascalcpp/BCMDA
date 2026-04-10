@@ -2,11 +2,18 @@
 
 Pytorch implementation of our method for Neural Networks paper: "BCMDA: Bidirectional Correlation Maps Domain Adaptation for Mixed Domain Semi-Supervised Medical Image Segmentation".[Paper Link](https://arxiv.org/abs/2603.24691)
 ## Contents
+- [Abstract](##Abstract)
 - [Introduction](##Introduction)
 - [Requirements](##Requirements)
 - [Datasets](##Datasets)
 - [Usage](##Usage)
 - [Acknowledgements](##Acknowledgements)
+
+
+## Abstract
+![avatar](./images/framework.jpg)
+
+In mixed domain semi-supervised medical image segmentation (MiDSS), achieving superior performance under domain shift and limited annotations is challenging. This scenario presents two primary issues: (1) distributional differences between labeled and unlabeled data hinder effective knowledge transfer, and (2) inefficient learning from unlabeled data causes severe confirmation bias. In this paper, we propose the bidirectional correlation maps domain adaptation (BCMDA) framework to overcome these issues. On the one hand, we employ knowledge transfer via virtual domain bridging (KTVDB) to facilitate cross-domain learning. First, to construct a distribution-aligned virtual domain, we leverage bidirectional correlation maps between labeled and unlabeled data to synthesize both labeled and unlabeled images, which are then mixed with the original images to generate virtual images using two strategies, a fixed ratio and a progressive dynamic MixUp. Next, dual bidirectional CutMix is used to enable initial knowledge transfer within the fixed virtual domain and gradual knowledge transfer from the dynamically transitioning labeled domain to the real unlabeled domains. On the other hand, to alleviate confirmation bias, we adopt prototypical alignment and pseudo label correction (PAPLC), which utilizes learnable prototype cosine similarity classifiers for bidirectional prototype alignment between the virtual and real domains, yielding smoother and more compact feature representations. Finally, we use prototypical pseudo label correction to generate more reliable pseudo labels. Empirical evaluations on three public multi-domain datasets demonstrate the superiority of our method, particularly showing excellent performance even with very limited labeled samples.
 
 ## Introduction
 Official code for "BCMDA: Bidirectional Correlation Maps Domain Adaptation for Mixed Domain Semi-Supervised Medical Image Segmentation".
